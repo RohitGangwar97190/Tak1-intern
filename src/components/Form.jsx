@@ -49,16 +49,16 @@ const Form = () => {
                   <input
                     type="text"
                     placeholder="Your Full name*"
-                    className="placeholder-black font-bold text-3xl  bg-blue-300 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%] "
+                    className="placeholder-black font-bold text-3xl  bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%] "
                   />
                   <input
                     type="email"
                     placeholder="Email ID*"
-                    className="placeholder-black font-bold text-3xl bg-blue-300 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl  bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                   />
 
                   <select
-                    className="placeholder-black font-bold text-3xl bg-blue-300 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl  bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                     required>
 
                     <option value="" disabled selected>Gender*</option>
@@ -74,12 +74,12 @@ const Form = () => {
                   <input
                     type="number"
                     placeholder="Mobile Number*"
-                    className="placeholder-black font-bold text-3xl  bg-blue-300 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl   bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                   />
                   <input
                     type="text"
                     placeholder="Current Address"
-                    className="placeholder-black font-bold text-3xl  bg-blue-300 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl   bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                   />
 
                 </div>
@@ -89,11 +89,11 @@ const Form = () => {
                   <input
                     type="date"
                     placeholder="DOB [DD/MM/YYYY]"
-                    className="placeholder-black font-bold text-3xl bg-blue-300 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl  bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                   />
        
                   <select
-                    className="placeholder-black font-bold text-3xl bg-blue-300 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl  bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                     required
                   >
                     <option value="" disabled selected>Select State*</option>
@@ -136,7 +136,7 @@ const Form = () => {
                   </select>
 
                   <select
-                    className="placeholder-black font-bold text-3xl bg-blue-300 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl  bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                     required
                   >
                     <option value="" disabled selected>Select City*</option>
@@ -168,7 +168,7 @@ const Form = () => {
                 <div className=" flex flex-col sm:flex-row  gap-8 m-6  h-[50px]">
        
                   <select
-                    className="placeholder-black font-bold text-3xl text-black bg-blue-300  border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl text-black  bg-purple-200  border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                     required
                   >
                     <option value="" disabled selected>Work Experience*</option>
@@ -182,10 +182,10 @@ const Form = () => {
                   <input
                     type="number"
                     placeholder="Pincode*"
-                    className="placeholder-black font-bold text-3xl text-black bg-blue-300 border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl text-black  bg-purple-200 border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                   />
                   <select
-                    className="placeholder-black font-bold text-3xl text-black bg-blue-300 border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+                    className="placeholder-black font-bold text-3xl text-black  bg-purple-200 border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
                     required
                   >
                     <option value="" disabled selected>Select Education*</option>
@@ -205,7 +205,7 @@ const Form = () => {
           </div>
         </div>
       </div>
-
+    
     </div>
 
   )

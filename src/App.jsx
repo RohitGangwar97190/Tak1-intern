@@ -8,7 +8,7 @@ const App = () => {
     <div>
     <Navbar/>
     <Form/>
-    {/* <Form2/> */}
+    <Form2/>
 
     </div>
   )

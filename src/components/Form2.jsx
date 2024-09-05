@@ -65,7 +65,7 @@ const Form2 = () => {
   };
 
   return (
-    <div className="flex flex-col sm:flex-row">
+    <div className="flex flex-col  sm:flex-row">
       <div className="relative w-full sm:w-1/4 flex justify-center sm:justify-end p-7 ">
         <div >
           <img className=" relative h-[15vh] rounded-full" src="/profile-img.webp" alt="Profile" />
@@ -91,15 +91,15 @@ const Form2 = () => {
             <input
               type="text"
               placeholder="Your Full name*"
-              className="placeholder-black bg-blue-300 font-bold text-3xl text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black bg-purple-200 font-bold text-3xl text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
             />
             <input
               type="email"
               placeholder="Email ID*"
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl bg-purple-200  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
             />
             <select
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
               required
             >
               <option value="" disabled defaultValue>Gender*</option>
@@ -112,29 +112,29 @@ const Form2 = () => {
             <input
               type="number"
               placeholder="Mobile Number*"
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl bg-purple-200 text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
             />
             <input
               type="text"
               placeholder="Current Address"
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl  bg-purple-200  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-8 mb-6">
             <input
               type="date"
               placeholder="DOB [DD/MM/YYYY]"
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl  bg-purple-200  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
             />
             <select
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl  bg-purple-200  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
               required
             >
               <option value="" disabled defaultValue>Select State*</option>
               
             </select>
             <select
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl  bg-purple-200  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
               required
             >
               <option value="" disabled defaultValue>Select City*</option>
@@ -143,7 +143,7 @@ const Form2 = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-8 mb-6">
             <select
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl  bg-purple-200  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
               required
             >
               <option value="" disabled defaultValue>Work Experience*</option>
@@ -156,10 +156,10 @@ const Form2 = () => {
             <input
               type="number"
               placeholder="Pincode*"
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl  bg-purple-200  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
             />
             <select
-              className="placeholder-black font-bold text-3xl bg-blue-300  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
+              className="placeholder-black font-bold text-3xl  bg-purple-200  text-black border rounded-full py-2 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[25%]"
               required
             >
               <option value="" disabled defaultValue>Select Education*</option>
@@ -174,7 +174,7 @@ const Form2 = () => {
           </div>
           <div className="mb-6">
             <textarea
-              className= "  placeholder-black font-bold text-3xl bg-blue-300 text-black border rounded-2xl py-2 w-[50%] min-h-[20vh]"
+              className= "  placeholder-black font-bold text-3xl bg-purple-200 text-black border rounded-2xl py-2 w-[50%] min-h-[20vh]"
               placeholder="Additional Information"
             />
           </div>
@@ -188,7 +188,7 @@ const Form2 = () => {
         name="language"
         value={selectedLanguage}
         onChange={handleChange}
-        className="font-bold text-xl text-black border bg-blue-300 rounded-full py-2 
+        className="font-bold text-xl text-black border bg-purple-200 rounded-full py-2 
              w-[50vw] 
              sm:w-[80%] 
              md:w-[60%] 
@@ -227,10 +227,12 @@ const Form2 = () => {
       <button
         type="button"
         onClick={handleClickcv}
-        className="bg-blue-500 items-center  text-white rounded-full p-4 text-xl"
+        className="bg-purple-200 items-center font-bold  text-black rounded-full p-4 text-2xl"
       >
         Upload your CV
       </button>
+      
+      
     </div>
     
 
@@ -238,7 +240,7 @@ const Form2 = () => {
   </div>
           <div className="mb-6">
             <textarea
-              className= "  placeholder-black font-bold bg-blue-300 text-3xl text-black border rounded-4xl py-2 w-[50%] min-h-[20vh]"
+              className= "  placeholder-black font-bold bg-purple-200 text-3xl text-black border rounded-4xl py-2 w-[50%] min-h-[20vh]"
               placeholder="Mention the other skill"
             />
           </div>
@@ -255,7 +257,7 @@ const Form2 = () => {
       <button
         type="button"
         onClick={handleClickid}
-        className="bg-blue-500 text-white rounded-full p-4 text-xl w-[30%]"
+        className="bg-purple-200 font-bold rounded-full p-4 text-black text-xl w-[30%]"
       >
         Upload your any other skill
       </button>
@@ -273,14 +275,14 @@ const Form2 = () => {
       <button
         type="button"
         onClick={handleClickvid}
-        className="bg-blue-500 text-white rounded-full p-4 text-xl w-[80%]"
+        className="bg-purple-200 text-black  placeholder-black rounded-full font-bold p-4 text-xl w-[80%]"
       >
         Upload your one minute audio or video
       </button>
     </div>
     <div className='flex justify-end mr-32  '>
 
-    <button className='bg-blue-500 w-48 rounded-3xl h-12 text-3xl' type='Submit'>Submit Now</button>
+    <button className=' bg-blue-800 w-48  placeholder-black rounded-3xl h-12 text-3xl' type='Submit'>Submit Now</button>
     </div>
         </form>
       </div>

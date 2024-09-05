@@ -4,13 +4,13 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-500 h-[80px] overflow-x-hidden ">
+    <nav className="bg-blue-900 h-[80px] overflow-x-hidden ">
   
 
 <div className="container flex justify-between items-center ">
-  {/* Logo */}
+<img className='h-36  rounded-xl' src="/hirersLogo.png"></img>
   <div className="text-white text-2xl font-bold">
-    MyLogo
+ 
   </div>
   
   {/* Right End */}
